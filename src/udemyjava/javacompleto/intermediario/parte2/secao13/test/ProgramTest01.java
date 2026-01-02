@@ -4,7 +4,7 @@ import udemyjava.javacompleto.intermediario.parte2.secao13.entities.Account;
 import udemyjava.javacompleto.intermediario.parte2.secao13.entities.BusinessAccount;
 import udemyjava.javacompleto.intermediario.parte2.secao13.entities.SavingsAccount;
 
-public class Program {
+public class ProgramTest01 {
     public static void main(String[] args) {
 
 
@@ -37,6 +37,8 @@ public class Program {
             account7.updateBalance();
             System.out.println("Update!");
         }
+
+
 
 
     }
