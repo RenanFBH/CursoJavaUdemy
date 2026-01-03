@@ -7,9 +7,9 @@ import udemyjava.javacompleto.intermediario.parte2.secao13.entities.SavingsAccou
 public class ProgramTest02 {
     public static void main(String[] args) {
 
-        Account account1 = new Account(1, "Teste1", 1000);
-        account1.withdraw(200);
-        System.out.println(account1.getBalance());
+        //Account account1 = new Account(1, "Teste1", 1000);
+        //account1.withdraw(200);
+        //System.out.println(account1.getBalance());
 
         Account account2 = new SavingsAccount(2, "Teste2", 1000, 0.01);
         account2.withdraw(200);

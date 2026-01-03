@@ -13,7 +13,7 @@ public class ProgramTest01 {
          *
          * A variável de referência do tipo superclasse recebe um objeto herdado do tipo subclasse;
          */
-        Account account1 = new Account(1, "Teste1", 0);
+        //Account account1 = new Account(1, "Teste1", 0);
         BusinessAccount businessAccount = new BusinessAccount(2, "Teste2", 0, 500);
         Account account2 = businessAccount;
         Account account3 = new BusinessAccount(3, "Teste3", 0, 200);

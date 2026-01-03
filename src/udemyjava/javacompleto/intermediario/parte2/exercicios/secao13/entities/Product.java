@@ -2,7 +2,7 @@ package udemyjava.javacompleto.intermediario.parte2.exercicios.secao13.entities;
 
 public class Product {
 
-    public String name;
+    private String name;
     private double price;
 
     public Product() {

@@ -1,6 +1,7 @@
 package udemyjava.javacompleto.intermediario.parte2.secao13.entities;
 
-public class Account {
+public abstract
+class Account {
 
     protected int number;
     protected String holder;
